@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ISearch</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/universal-sentence-encoder"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <div class="input-wrapper" id="input-wrapper">
+        <input type="text" id="input" placeholder="Query"><button id="do">go</button>
+    </div>
+    <div class="loader" id="status">
+
+    </div>
+    <div class="output-wrapper">
+        <div id="output"></div>
+        <div id="pages">
+        </div>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
